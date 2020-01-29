@@ -1,0 +1,124 @@
+body{
+    background-color: #e6e6e6;
+}
+.logotipo{
+    margin-bottom: 40px;
+}
+nav{
+    margin-top: -17px;
+    margin-right: 20px;
+}
+nav ul{
+    background-color: orangered;
+    list-style:none;
+    padding: 10px;
+    display:inline-block;
+    width:100%;
+}
+nav li{
+    float:left;
+}
+nav a{
+    color:white;
+    text-decoration:none; 
+    margin: 15px;
+}
+.main .articles{
+    float: left;
+    width: 60%;
+}
+article{
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin: 20px;
+}
+article h2{
+    margin-bottom: -15px;
+    margin-top: -10px;
+}
+ul{
+    margin-top: -20px;
+    margin-bottom: 3px;
+}
+table,tr,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 20px;
+}
+td:hover{
+    background: -moz-linear-gradient(left, #d4e4ef 0%, #86aecc 100%);
+    background: -webkit-linear-gradient(left, #d4e4ef 0%, #86aecc 100%);
+}
+table:hover{
+    box-shadow: 0px 5px 10px  #333;
+    -webkit-box-shadow: 0px 5px 10px #333;
+    -moz-box-shadow: 0px 5px 10px #333;
+}
+
+.asignaturas{
+    background-color: #e6e6e6; 
+    list-style:none;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    margin-top: 15px;
+}
+aside{
+    background-color: #6b6d6d;
+    float:right;
+    width: 40%;
+    margin-top: 20px;
+    
+}
+h3{
+    padding-left: 10px;
+    color:white;
+}
+aside p{
+   padding-left: 10px;
+    color:white; 
+}
+form{
+    padding-left: 10px;
+    color:white;
+    background-color: orangered;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 30px;
+    padding: 20px;
+    
+}
+input{
+    width: 100%;
+    margin-bottom: 20px;
+    height: 30px;
+    
+}
+#mensaje{
+    height: 90px;
+    width: 98%;
+}
+#nombre::placeholder, #email::placeholder{
+    padding-left: 10px;
+}
+#mensaje::placeholder{
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+input[type=submit]{
+    background-color: #002597;
+    border-radius: 10px;
+    border: none;
+    height: 40px;
+    color: white;
+}
+footer{
+    clear:both;
+    background-color: black;
+    text-align: center;
+    padding: 2px; 
+    color: white;
+    font-size: 16px;
+}
